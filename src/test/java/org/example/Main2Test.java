@@ -13,7 +13,7 @@ class Main2Test {
 
         System.setOut(old);
 
-        String nl = System.lineSeparator(); // на Windows это "\r\n"
+        String nl = System.lineSeparator();
 
         String expected =
                 "***"   + nl +

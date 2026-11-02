@@ -33,7 +33,6 @@ public class Main1 {
     }
 
     static void measure(int[] arr, int index) {
-        // warm up
 
         for (int i = 0; i < 3; i++) {
             algorithm(arr, index);
